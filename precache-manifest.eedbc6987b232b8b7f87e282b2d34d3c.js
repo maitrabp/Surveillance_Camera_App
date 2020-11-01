@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82921bf472dca7c3d3f08ad80fa3f288",
+    "revision": "bed48a2c1583de37a0b4b91d64714533",
     "url": "/Surveillance_Camera_App/index.html"
   },
   {
-    "revision": "a901d62ae26596d6d86e",
+    "revision": "3ac2ca82dfddced1b5e9",
     "url": "/Surveillance_Camera_App/static/css/main.3741cdca.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Surveillance_Camera_App/static/js/2.1eeedeb6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a901d62ae26596d6d86e",
-    "url": "/Surveillance_Camera_App/static/js/main.bd369e17.chunk.js"
+    "revision": "3ac2ca82dfddced1b5e9",
+    "url": "/Surveillance_Camera_App/static/js/main.0266194f.chunk.js"
   },
   {
     "revision": "18f1222f8d9e4899f612",
