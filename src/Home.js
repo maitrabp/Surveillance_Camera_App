@@ -17,7 +17,7 @@ function Home(props) {
     const isRecordingRef = useRef(false);
     const {addVideo} = useContext(RecordContext);
     //when the page renders, you wanna do this
-    useEffect(() => {
+    useEffect(() => { 
       async function prepare() {
         startButtonElement.current.setAttribute("disabled", true);
         stopButtonElement.current.setAttribute("disabled", true);
@@ -59,6 +59,13 @@ function Home(props) {
           } catch (error) {
             console.error(error);
           }
+        } else {
+            //Show screen once the start button is displayed
+            document.querySelector( 
+              "#loader").style.display = "none"; 
+            document.querySelector( 
+              "body").style.visibility = "visible"; 
+            window.alert("No Camera Detected. You must have a camera to run this app");
         }
       }
       prepare();

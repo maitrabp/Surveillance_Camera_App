@@ -1,5 +1,5 @@
 import React, {useContext, useState} from "react";
-import {BrowserRouter as Router, Switch, Route, Link, Redirect} from "react-router-dom";
+import {HashRouter, Switch, Route, Link, Redirect} from "react-router-dom";
 import { RecordContext } from "./context/RecordState";
 import Recordings from "./Recordings";
 import Home from "./Home"
@@ -33,7 +33,7 @@ const App = () => {
   }
   return (
 
-    <Router>
+    <HashRouter basename = "/">
         <RecordProvider>
         <div>
           <nav class="navbar navbar-expand-sm fixed-bottom navbar-info bg-dark border border-white" data-toggle="affix">
@@ -53,7 +53,7 @@ const App = () => {
           </Switch>
         </div>
         </RecordProvider>
-    </Router>
+    </HashRouter>
 
   );
 };
