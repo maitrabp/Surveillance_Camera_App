@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Surveillance_Camera_App/static/css/main.c3791041.chunk.css",
+    "main.js": "/Surveillance_Camera_App/static/js/main.68e0bc31.chunk.js",
+    "main.js.map": "/Surveillance_Camera_App/static/js/main.68e0bc31.chunk.js.map",
+    "runtime-main.js": "/Surveillance_Camera_App/static/js/runtime-main.2e3252a3.js",
+    "runtime-main.js.map": "/Surveillance_Camera_App/static/js/runtime-main.2e3252a3.js.map",
+    "static/js/2.a34b0507.chunk.js": "/Surveillance_Camera_App/static/js/2.a34b0507.chunk.js",
+    "static/js/2.a34b0507.chunk.js.map": "/Surveillance_Camera_App/static/js/2.a34b0507.chunk.js.map",
+    "index.html": "/Surveillance_Camera_App/index.html",
+    "precache-manifest.25482340f26c9426d8a3251e6c9d756f.js": "/Surveillance_Camera_App/precache-manifest.25482340f26c9426d8a3251e6c9d756f.js",
+    "service-worker.js": "/Surveillance_Camera_App/service-worker.js",
+    "static/css/main.c3791041.chunk.css.map": "/Surveillance_Camera_App/static/css/main.c3791041.chunk.css.map",
+    "static/js/2.a34b0507.chunk.js.LICENSE.txt": "/Surveillance_Camera_App/static/js/2.a34b0507.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e3252a3.js",
+    "static/js/2.a34b0507.chunk.js",
+    "static/css/main.c3791041.chunk.css",
+    "static/js/main.68e0bc31.chunk.js"
+  ]
+}
